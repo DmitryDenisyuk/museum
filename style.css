@@ -1,0 +1,37 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap");
+
+
+
+/* hidden block to keep other sections below video */
+header {
+  position: relative;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* full screen image */
+header img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  
+}
+
+
+
+/* text over image */
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+
+
